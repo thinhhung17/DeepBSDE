@@ -21,7 +21,7 @@ from solver import BSDESolver
 flags.DEFINE_string('config_path', 'configs/hjb_lq_d100.json',
                     """The path to load json file.""")
 flags.DEFINE_string('exp_name', 'test',
-                    """The name of numerical experiments, prefix for logging""")
+                    """Prefix for json data file""")
 FLAGS = flags.FLAGS
 FLAGS.log_dir = './logs'  # directory where to write event logs and output array
 
